@@ -1,0 +1,60 @@
+body{
+    background-color: black;
+}
+
+.text{
+    color: pink;
+    position: fixed;
+    bottom: 10%;
+    right: 5%;
+    font-size: larger;
+    border: solid;
+    border-color: salmon;
+    border-style: ridge;
+    z-index:1;
+}
+
+ .click button{
+    background-color: black;
+    border:  3px solid #d81747;
+    border-radius: 30%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+.click button:hover{
+    background-color: #d81747;
+    border:  3px solid #d81747;
+    border-radius: 30%;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-top: 5%;
+    margin-right: 5%;
+    cursor: pointer;
+}
+
+
+.balloons button{
+    background-color: #d40c16;
+    border: none;
+    color: white;
+    padding: 1%;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border-radius: 100%;
+    cursor: pointer;
+  }
